@@ -1,0 +1,23 @@
+{
+  "name": "web3-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "migrate": "truffle migrate --network development --reset",
+    "compile": "truffle compile --network development",
+    "tests": "truffle test --network development",
+    "start": "npx ts-node index.ts"
+  },
+  "author": "Konstantin Grudnitskiy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.4.4",
+    "dotenv": "^16.3.1",
+    "ganache": "^7.9.0",
+    "solc": "^0.8.0",
+    "truffle": "^5.11.1",
+    "typescript": "^5.1.6",
+    "web3": "^4.0.3"
+  }
+}
